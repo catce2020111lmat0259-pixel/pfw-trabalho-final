@@ -1,0 +1,117 @@
+/* div geral */
+div {
+    margin: 10px;
+    padding: 10px;
+    width: 500px;
+    border-radius: 5px;
+}
+
+/* campos gerais */
+input {
+    padding: 5px;
+    margin-top: 15px;
+    width: 275px;
+    margin-left: 15px;
+    border-radius: 5px;
+}
+
+/* botoes gerais */
+button {
+    border-radius: 4px;
+    padding: 3px;
+}
+
+select {
+    width: 70px;
+    margin-left: 215px;
+    border-radius: 5px;
+}
+
+label {
+    display: inline-block;
+    width: 175px;
+}
+
+.destaque {
+    font-weight: bold;
+    font-size: 17px;
+}
+
+/* tabela geral */
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+td {
+    text-align: right;
+}
+
+td:nth-child(1) {
+  text-align: left;
+}
+
+/* botoes do js */
+td button {
+    display: block;
+    margin: 5px auto;
+}
+
+/* tema 1 - padrao */
+.capsula-1 {
+    background-color: white;
+    border: 1px solid #cacaca;
+    color: #000000;
+}
+
+.tab-1 tr,
+.tab-1 th,
+.tab-1 td {
+    border: 1px solid black;
+    padding: 5px;
+}
+
+/* tema 2 - dark */
+.capsula-2 {
+    background-color: #111111;
+    border: 2px solid #363636;
+    color: white;
+}
+
+.tab-2 tr,
+.tab-2 th,
+.tab-2 td {
+    border: 1px solid white;
+    padding: 5px;
+
+}
+
+/* tema 3 - neon*/
+.capsula-3 {
+    background-color: #87ddff;
+    border: 2px solid #00ff9d;
+    color: #d502ff;
+}
+
+.tab-3 tr,
+.tab-3 th,
+.tab-3 td {
+    border: 2px solid #ffef14;
+    padding: 5px;
+    color: #8e0fe2;
+}
+
+/* tema 4 - rdr2 */
+.capsula-4 {
+    background-color: #ececec;
+    border: 1px solid #0011ff;
+    color: #000000;
+}
+
+.tab-4 tr,
+.tab-4 th,
+.tab-4 td {
+    border: 2px solid black;
+    padding: 5px;
+    color: #5a0000;
+}

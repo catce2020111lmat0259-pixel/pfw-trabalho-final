@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trabalho Final</title>
+
+    <link rel="stylesheet" href="trab_final.css">
+
+    <script src="trab_final.js" defer></script>
+</head>
+
+<body>
+    <h1 id="title">Montando uma lista de Jogos</h1>
+
+    <h3>Monte sua lista e planeje-se!</h3>
+    <div class="capsula-1" id="d1">
+        <label class="destaque" for="temaPagina">Tema da página:</label>
+        <select id="temaPagina">
+            <option value="padrao">padrão</option>
+            <option value="dark">dark</option>
+            <option value="neon">neon</option>
+            <option value="rdr-2">rdr 2</option>
+        </select>
+    </div>
+
+    <div  class="capsula-1" id="d2">
+        <label class="destaque" for="form-jogos">Cadastrar novo jogo</label>
+        <form id = "form-jogos">
+            <label for="nomeJogo">Nome do jogo:</label>
+            <input type="text" id="nomeJogo" placeholder="Nome do jogo"><br>
+            <label for="precoJogo">Preço do jogo:</label>
+            <input id="precoJogo" placeholder="Preço atual"><br>
+            <label for="nivelPrioridade">Nível de prioridade:</label>
+            <input type="text" id="nivelPrioridade" placeholder="ex: baixa, média, alta."><br>
+        </form>
+        <p class="msm-erro" id="mensagemErro"></p>
+        <button id="adicionarJogo">+ Adicionar</button>
+    </div>
+
+    <div class="capsula-1" id="d3">
+        <table class="tab-1" id="jogosCadastrados">
+            <tr>
+                <th colspan="4">Jogos cadastrados</th>
+            </tr>
+            <tr>
+                <th>Jogo</th>
+                <th>Preço</th>
+                <th>Prioridade</th>
+                <th>Ações</th>
+            </tr>
+        </table>
+    </div>
+
+</body>
+
+</html>
